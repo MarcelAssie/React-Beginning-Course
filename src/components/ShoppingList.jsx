@@ -3,6 +3,7 @@ import { plantList } from "../datas/plantList";
 import PlantItem from "./PlantItem";
 import { useState } from "react";
 
+
 function ShoppingList({ cart, updateCart }) {
     const [selectedCategory, setSelectedCategory] = useState("all");
 
