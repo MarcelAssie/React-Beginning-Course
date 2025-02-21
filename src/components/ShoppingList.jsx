@@ -50,7 +50,7 @@ function ShoppingList({ cart, updateCart }) {
                     ))}
                 </select>
                 <button onClick={() => setSelectedCategory("all")} className="lmj-reset-button">
-                    Réinitialiser
+                    <i className="fas fa-sync-alt"></i>
                 </button>
             </div>
 

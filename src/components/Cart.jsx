@@ -15,7 +15,7 @@ function Cart({cart, updateCart}) {
     return isOpen ? (
         <div className="lmj-cart">
             <button onClick={() => setIsOpen(false)} className="btn btn-danger">Fermer</button>
-            <h2>Panier</h2>
+            <h2><i className="fas fa-shopping-cart"></i></h2>
             {cart.length > 0 ? <ul>
                 {cart.map(({name, price, amount }, index) => (
                     <div key={`${name}-${index}`}>
@@ -30,8 +30,8 @@ function Cart({cart, updateCart}) {
             <button className="btn btn-secondary" onClick={() => updateCart([])}>Vider le panier</button>
         </div>
     ) : (
-        <button className="btn btn-success lmj-cart-toggle" onClick={() => setIsOpen(true)} >
-            Voir le panier
+        <button className="btn btn-success lmj-cart-toggle" onClick={() => setIsOpen(true)}>
+            Mon pannier <i className="fas fa-shopping-cart"></i>
         </button>
     );
 }
