@@ -1,0 +1,9 @@
+/* App.css */
+
+/* Conteneur principal */
+.lmj-layout {
+    display: flex; /* Utilisation de flexbox */
+    gap: 20px; /* Espace entre le panier et la liste des plantes */
+    padding: 0 20px;
+}
+

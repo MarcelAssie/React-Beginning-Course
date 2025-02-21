@@ -1,0 +1,32 @@
+/* Conteneur principal de la bannière */
+.lmj-banner {
+    display: flex;
+    justify-content: flex-end; /* Aligner le logo et titre à gauche */
+    align-items: center;
+    padding: 20px 32px; /* Espacement ajusté */
+    border-bottom: 3px solid #2c6e49; /* Border en vert naturel */
+    background-color: #f0f8f0; /* Fond léger pour la bannière */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère sous la bannière */
+}
+
+/* Titre de la bannière */
+.lmj-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c6e49; /* Couleur complémentaire pour un effet naturel */
+    margin-left: 16px; /* Espacement entre le logo et le titre */
+}
+
+/* Logo de la bannière */
+.lmj-logo {
+    height: 50px;
+    width: 50px;
+    object-fit: contain; /* Maintenir l'aspect du logo */
+    transition: transform 0.2s ease-in-out; /* Effet de survol */
+}
+
+/* Effet au survol du logo */
+.lmj-logo:hover {
+    transform: scale(1.1); /* Agrandir légèrement le logo au survol */
+}
+

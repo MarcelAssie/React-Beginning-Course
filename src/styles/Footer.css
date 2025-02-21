@@ -1,0 +1,27 @@
+/* Footer.css */
+.lmj-footer {
+	background-color: #f0fff0;
+	padding: 20px;
+	text-align: center;
+	border-top: 3px solid #20780e;
+}
+
+.lmj-footer-elem {
+	margin-bottom: 10px;
+	font-size: 1.1rem;
+	color: #2c6e49;
+}
+
+input[type="email"] {
+	padding: 10px;
+	border: 1px solid #81c784;
+	border-radius: 5px;
+	font-size: 1rem;
+	width: 250px;
+	outline: none;
+}
+
+input[type="email"]:focus {
+	border-color: #31d231;
+	box-shadow: 0 0 5px rgba(49, 210, 49, 0.5);
+}
